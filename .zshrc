@@ -159,3 +159,5 @@ export PATH="$GOPATH/bin:$PATH"
 # zsh autosuggestions
 #source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+export PATH=$PATH:/opt/homebrew/bin
+

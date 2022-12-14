@@ -24,7 +24,13 @@ c.content.blocking.hosts.lists = ['http://someonewhocares.org/hosts/hosts',
         'http://www.malwaredomainlist.com/hostslist/hosts.txt',
         'https://raw.githubusercontent.com/ZeroDot1/CoinBlockerLists/master/hosts_browser',]
 
-c.url.searchengines = {"DEFAULT":"https://www.google.com/search?hl=en&q={}"}
+c.content.headers.user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+
+# set user agent to latest chrome version so I don't get chrome out of date warnings/blockers
+
+c.url.searchengines = {
+    "go": "go.robot.car/{}",
+    "DEFAULT":"https://www.google.com/search?hl=en&q={}"}
 # c.url.searchengines = {"DEFAULT":"https://cn.bing.com/search?q={}"}
 # c.content.user_stylesheets=['/home/yqiu/sources/solarized-everything-css/css/solarized-all-sites-dark.css']
 # c.content.user_stylesheets=['/home/yqiu/.config/qutebrowser/global-dark.css']
@@ -76,7 +82,7 @@ c.zoom.default = "110%"
 c.backend = "webengine"
 
 # additions
-config.bind("j", "run-with-count 2 scroll down") 
+config.bind("j", "run-with-count 2 scroll down")
 config.bind("k", "run-with-count 2 scroll up")
 
 
