@@ -30,6 +30,7 @@ c.content.headers.user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) 
 
 c.url.searchengines = {
     "go": "go.robot.car/{}",
+    "wiki":  "https://wiki.robot.car/dosearchsite.action?queryString={}",
     "DEFAULT":"https://www.google.com/search?hl=en&q={}"}
 # c.url.searchengines = {"DEFAULT":"https://cn.bing.com/search?q={}"}
 # c.content.user_stylesheets=['/home/yqiu/sources/solarized-everything-css/css/solarized-all-sites-dark.css']
@@ -85,4 +86,7 @@ c.backend = "webengine"
 config.bind("j", "run-with-count 2 scroll down")
 config.bind("k", "run-with-count 2 scroll up")
 
+# tab moving
+config.bind(">", "tab-move +")
+config.bind("<", "tab-move -")
 

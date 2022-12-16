@@ -1,0 +1,26 @@
+
+postgresql -> citus
+
+help gokcen
+onboarding
+- postgresql -> ...
+join
+
+metadata (postsql in gcp)
+reading material
+
+30tb migrated to citus rn so far.. issues rn though
+- help with benchmarking
+
+find some queries to run
+- bencharmking/testing
+- test via 1 query at a time?
+- parallel query for testing
+- read citus
+- look at queries; percnetiles
+
+sim schema not ready for testing
+
+find problematic queries
+
+framework

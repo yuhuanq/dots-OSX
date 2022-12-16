@@ -1,9 +1,27 @@
 = Cruise vimwiki =
 
+Env
+- [ ] ripgrep vs AG for vim code search
+- [ ] vscode dev env etc
+- [X] slack on phone etc
 
-TODO
-- [ ] ..
+General onboarding
+- [ ] new hire curriculum (tons of stuff here)
+    - https://getcruise.myabsorb.com/#/curricula/4454afcb-6490-41f2-bc0f-37f1c34801d8
+- [ ] read wiki; cruise home -> people ,etc
+- [ ] setup empower (401k) ~fri access
 
+Linux
+- [ ] Setup!
+- [ ] zsh, shell
+- [ ] i3
+- [ ] vim
+- [ ] tmux
+- [ ] vscode?
+- [ ] qute/chrome
 
+=== scratch notes ===
 
+=== Links ===
+[[Citus onboarding task]]
 
